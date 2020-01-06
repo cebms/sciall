@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang = "eng">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="javascript/sciall.js"></script>
+        <script src="javascript/expand.js"></script>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <link href="https://fonts.googleapis.com/css?family=Audiowide&display=swap" rel="stylesheet">
+        <link rel = "stylesheet" href = "main.css">
+        <meta charset="utf-8">
+        <title> sciall </title>
+    </head>
+    <body>
+        <nav class = "global-nav fixed">
+            <div class = "gn-content">
+                <div class = "gn-item gn-sciall">
+                    <a class = "gn-link gn-link-sciall" href = "#welcome">
+                      <img src = "images/logo2.png" alt = "sciall-logo"> 
+                    </a>
+                </div>
+                <div class = "gn-item gn-about gn-text gn-zoom">
+                    <a class = "gn-link gn-link-about" href = "#about">ABOUT US</a>
+                </div>
+                <div class = "gn-item gn-projects gn-text">
+                    <a class = "gn-link gn-link-projects">PROJECTS</a>
+                    <div class = "proj-dropdown">
+                        <a href = "#projects">DOCASSIST</a>
+                    </div>
+                </div>
+                <div class = "gn-item gn-team gn-text gn-zoom">
+                    <a class = "gn-link gn-link-team" href = "#team">OUR TEAM</a>
+                </div>
+                <div class = "gn-item gn-contact gn-text gn-zoom">
+                    <a class = "gn-link gn-link-contact" href = "#contact">CONTACT</a>
+                </div>
+            </div>
+        </nav>
+        <main class = "main">
+            <section class = "welcome-section module" id = "welcome">
+                <div class = "section-content">
+                    <div class = "wel-logo-wrapper">
+                        <div class = "logo-wrapper">
+                            <img  src = "images/logo3.png">
+                        </div>
+                        <div class = "slogan-wrapper">
+                            <i class = "slogan1">THINK, </i>
+                            <i class = "slogan2">CREATE, </i>
+                            <i class = "slogan3">INNOVATE</i>
+                        </div>
+                    </div>
+                    <div class = "banner"> </div>
+                </div>
+            </section>
+            <section class = "about-section module" id = "about">
+                <div class = "about-wrapper">
+                    <div data-aos = "fade-up" data-aos-duration = "500" class = "gear-wrapper"></div>
+                    <div class = "abtext-wrapper">
+                        <div  data-aos = "fade-up" data-aos-duration = "500" class = "module-title">
+                            <i id = "about-title" >About Us</i>
+                        </div>
+                        <div data-aos = "fade-up" data-aos-duration = "500" class = "at-wrapper">
+                            <p class = "about-text">
+                                &nbsp Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Interdum consectetur libero id faucibus nisl tincidunt eget. Nunc congue nisi vitae suscipit tellus mauris a diam. Semper viverra nam libero justo. Et netus et malesuada fames. Imperdiet massa tincidunt nunc pulvinar. Sed libero enim sed faucibus turpis in eu. Sit amet aliquam id diam maecenas ultricies mi eget mauris. Scelerisque eleifend donec pretium vulputate sapien nec sagittis aliquam malesuada. Praesent semper feugiat nibh sed. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Cursus vitae congue mauris rhoncus aenean vel elit scelerisque. Donec ultrices tincidunt arcu non sodales neque sodales ut etiam. Non blandit massa enim nec dui. Interdum consectetur libero id faucibus nisl. Volutpat maecenas volutpat blandit aliquam. In nulla posuere sollicitudin aliquam ultrices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class = "projects-section module" id = "projects">
+                <div  data-aos = "fade-up" data-aos-duration = "500" class = "module-title">
+                    <i class = "team-title">DocAssist</i>
+                </div>
+                <div  data-aos = "fade-up" data-aos-duration = "500" class = "project-wrapper">
+                    <div class = "pt-wrapper">
+                        <p class = "project-text">
+                            &nbsp Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Nullam ac tortor vitae purus faucibus ornare. Fusce ut placerat orci nulla pellentesque dignissim enim sit. At erat pellentesque adipiscing commodo. 
+                        </p>
+                    </div>
+                    <div  data-aos = "fade-up" data-aos-duration = "500" class = "da-img-wrapper">
+                        <img id = "docassist" src = "images/logo2.png" alt = "docassist">
+                    </div>
+                </div>
+                <div class = "expand-button">
+                    <button id = "expand">Show More</button>
+                </div>
+                <div class = "ext-content">
+                    <div class = "videodocassist">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/N8S98hLvA90" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> 
+                    </div>
+                </div>
+            </section>
+            <section class = "team-section module" id = "team">
+                <div  data-aos = "fade-up" data-aos-duration = "500" class = "module-title">
+                    <i class = "team-title">Our team</i>
+                </div>
+                <div class = "team-wrapper">
+                    <div  data-aos = "fade-up" data-aos-duration = "500" class = "maia-wrapper team-img">
+                        <div class = "maia-img">
+                            <div id = "maia-curtain" class = "curtain">
+                                <p class = "team-names">
+                                    Victor Dubeux
+                                </p>
+                                <p id = "maia-text" class = "team-text">
+                                    Victor is a passionate inventor since he's 13 years old. Developer of ECOye - an industrial CO2 filter that is also green-energy source - and several projects on engeneering, astrophysics and biochemistry. He is one of the SCIALL's founders back in 2016 and represented Brazil at numerous science competitions and events such as Stanford Pre-Collegiate Studies (SPCS). Now, his focus is developing socio-environmental solutions to low-income communities. He loves to play guitar. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div  data-aos = "fade-up" data-aos-duration = "500" class = "icaro-wrapper team-img">
+                        <div class = "icaro-img">
+                            <div id = "icaro-curtain" class = "curtain">
+                                <p class = "team-names">
+                                    Ícaro Nunes
+                                </p>
+                                <p id = "icaro-text" class = "team-text">
+                                    Ícaro is passionate about math, physics and programming. With several medals in competitions in STEM, Ícaro found in eletronics a way to turn his passion into action and solve the problems of the reality around him. With great willing to help and skills on C programming, ícaro joined SCIALL as a programmer in 2018. He also loves to sing and play the guitar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div  data-aos = "fade-up" data-aos-duration = "500" class = "diogo-wrapper team-img">
+                        <div class = "diogo-img">
+                            <div id = "diogo-curtain" class = "curtain">
+                                <p class = "team-names">
+                                    Diogo Guerra
+                                </p>
+                                <p id = "diogo-text" class = "team-text">
+                                    Diogo is a young entrenpreneur that loves engeneering. Youth outreach at São Paulo Startup Weekend, Diogo represented Brazil at University of Pennsylvania Engeneering Summer and also at Stanford Pre-Collegiate Studies, where he met and joined SCIALL in 2018. He dreams to achieve meaningful experiences to be able to change Brazil's reality in the future. He's crazy about soccer. 
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class = "contact-section module" id = "contact">
+                <div class = "contact-wrapper">
+                    <div class = "contact"> 
+                        <div data-aos = "fade-up" data-aos-duration = "500" class = "module-title">
+                            <i class = "contact-title"> Contact</i>
+                        </div>
+                        <div class = "contact-content">
+                            <div class = "mail-wrapper">
+                                <img src = "images/mail-icon.png" alt = "mail-icon">
+                                <a href = "mailto:sciall.tech@gmail.com">sciall.tech@gmail.com</a>
+                            </div>
+                            <div class = "instagram-wrapper">
+                                <img src = "images/insta-icon.png" alt = "insta-icon">
+                                <a href = "https://www.instagram.com/sciall.tech/" target = "_blank">@sciall.tech</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class = "footer">
+            <ul class = "ft-content">
+                <li class="test">
+                    SCIALL &COPY; 2016
+                </li> 
+                <li class = "credit"> 
+                    <a href = "sciall.html">ProDEV Web</a>
+                </li>
+            </ul>
+        </footer>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+    </body>
+</html>
