@@ -442,39 +442,22 @@ a{
 }
 
 /*---------------------------------------------- contact ---------------------------------------*/
+.contact-section{
+    background-color: #00142F;   
+}
 
 .contact-wrapper{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: #00142F;
-}
-
-.contact{
-    height: 600px;
-    width: 900px;
 }
 
 .contact-title{
     color: white;
 }
 
-.contact-content{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-left: 100px;
-    margin-top: 80px;
-}
-
-.contact img{
-    height: 150px;
-    width: 150px;
-}
-
 .contact a{
     font-family: 'lato';
     color: #ffffff;
-
-
 }
 
 /*---------------------------------------- footer ---------------------------------------------*/
