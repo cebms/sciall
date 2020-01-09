@@ -164,6 +164,28 @@ a{
     font-size: 105%;
 }
 
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 800px){
+    .gn-content div:not(:first-child){
+        display: none;
+    }
+    .gn-sciall{
+        display: block;
+        float: left;
+    }
+    .mobile-menu{
+        float: right;
+        display: block !important;
+    }
+    .gn-content{
+        margin: 0 0;
+        max-width: 100%
+    }
+}
+
 /*-------------------------------------------------welcome-------------------------------------------*/
 
 .wel-logo-wrapper{
@@ -274,8 +296,8 @@ a{
         font-size: 7.5vw;
     }
     .social{
-        font-size: 9vw;
-        padding-left: 25%;
+        font-size: 9.5vw;
+        padding-left: 20%;
     }
 }
 
