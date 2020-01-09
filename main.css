@@ -266,9 +266,9 @@ a{
     }
     .banner-text{
         float: none;
-        margin-left: 20vw;
+        margin-left: 15vw;
         position: absolute;
-        bottom: 10%;
+        bottom: 15%;
     }
     .creative{
         font-size: 7.5vw;
