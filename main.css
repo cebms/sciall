@@ -238,26 +238,37 @@ a{
     margin-top: 15%;
     color: white;
     margin-right: 1%;
+    display: block;
+    width: fit-content;
 }
 
 .creative{
     font-family: 'lato';
     font-size: 4vw;
     padding-right: 10px;
+    width: fit-content;
 }
 
 .social{
     font-family: 'playlist';
     font-size: 5vw;
     padding-left: 20%;
+    width: fit-content;
 }
 
 @media screen and (max-width: 800px) {
     .banner{
         max-height: 320px;
     }
+    .banner-curtain{
+        max-height: 320px;
+    }
     .banner-text{
         float: none;
+        margin-left: 40%;
+        position: absolute;
+        bottom: 10%;
+        font-size: 300%;
     }
 }
 
