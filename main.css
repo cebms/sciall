@@ -220,9 +220,41 @@ a{
 }
 
 .banner{
-    background-image:url(images/banner.png);
+    background-image:url(images/bannerimg.jpeg);
     height: 600px;
+    max-width: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.banner-curtain{
+    background-color: rgba(105, 165, 212, 0.3);
     width: 100%;
+    height: 100%;
+}
+
+.banner-text{
+    float: right;
+    margin-top: 15%;
+    color: white;
+}
+
+.creative{
+    font-family: 'lato';
+    font-size: 4vw;
+    padding-right: 50px;
+}
+
+.social{
+    font-family: 'playlist';
+    font-size: 5vw;
+    padding-left: 100px;
+}
+
+@media screen and (max-width: 800px) {
+    .banner{
+        max-height: 320px;
+    }
 }
 
 #welcome{
