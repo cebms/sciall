@@ -265,10 +265,15 @@ a{
     }
     .banner-text{
         float: none;
-        margin-left: 40%;
+        margin-left: 30%;
         position: absolute;
         bottom: 10%;
-        font-size: 300%;
+    }
+    .creative{
+        font-size: 200%;
+    }
+    .social{
+        font-size: 250%;
     }
 }
 
