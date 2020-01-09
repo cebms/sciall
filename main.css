@@ -258,10 +258,11 @@ a{
 
 @media screen and (max-width: 800px) {
     .banner{
-        max-height: 320px;
+        max-height: 400px;
+        background-size: 130%;
     }
     .banner-curtain{
-        max-height: 320px;
+        max-height: 400px;
     }
     .banner-text{
         float: none;
