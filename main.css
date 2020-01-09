@@ -125,7 +125,7 @@ a{
 }
 
 .gn-item{
-    margin: 13px 0 13px 0;
+    margin: 1vw 0;
     padding-left: 3rem;
     padding-right: 3rem;
     position: relative;
@@ -136,7 +136,7 @@ a{
 .proj-dropdown{
     display: none;
     background-color: rgba(0, 0, 0, 0.8);
-    margin-top: 17px;
+    margin-top: 1vw;
     box-sizing: content-box;
     width: 150px;
     height: 25px;
@@ -175,10 +175,12 @@ a{
     .gn-sciall{
         display: block;
         float: left;
+        margin: 2.5vw 0;
     }
     .mobile-menu{
         float: right;
         display: block !important;
+        margin: 2vw 0;
     }
     .gn-content{
         margin: 0 0;
