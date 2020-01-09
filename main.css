@@ -168,6 +168,10 @@ a{
     display: none;
 }
 
+#mobile-logo{
+    display: none;
+}
+
 @media screen and (max-width: 800px){
     .gn-content div:not(:first-child){
         display: none;
@@ -185,6 +189,12 @@ a{
     .gn-content{
         margin: 0 0;
         max-width: 100%
+    }
+    #desktop-logo{
+        display: none;
+    }
+    #mobile-logo{
+        display: block;
     }
 }
 
