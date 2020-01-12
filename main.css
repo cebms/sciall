@@ -182,8 +182,8 @@ a{
     .gn-sciall{
         display: block;
         float: left;
-        margin: 10px 0;
-        padding: 0 40px !important;
+        margin: 10px 3%;
+        padding: 0;
     }
     .mobile-menu{
         float: right;
@@ -223,7 +223,6 @@ a{
         max-width: 100%;
     }
     .proj-dropdown{
-        position: relative;
         width: 100%;
     }
 }
